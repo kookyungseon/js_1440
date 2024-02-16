@@ -8,6 +8,11 @@ for(let i =0; i<testButton.length; i++){
     console.log([i]);
 
     testButton[i].addEventListener('click',function(){
+
+        // data-src 속성을 활용
+        // data 'data-'로 시작한다.
+        // 개발자가 필요한 데이터를 저장하는 속성
+        
         let src = this.getAttribute('data-src');
         console.log(src);
         // console.log(this);
