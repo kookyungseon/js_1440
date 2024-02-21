@@ -1,0 +1,15 @@
+main{
+    display: flex;
+}
+
+.div-box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+.border{
+    border: 1px solid black;
+    border-radius: 20px;
+}
